@@ -13,22 +13,48 @@
 
   <body>
 	<style>
-	.box{
-    width: 45vw;
-	display:inline-block; 
-	height: 700px;
-} 	
-.clear{
-    clear:both;
-}
+    .main-row {
+      width: 90vw;
+      margin: auto;
+    }
+    .row iframe {
+      height: 650px;
+    }
+
+	.box {
+      width: 45vw;
+      display: inline-block;
+      height: 725px;
+    }
+
+	.clear {
+      clear: both;
+      }
 </style>
-	<div style="width: 90vw; margin: auto;">
+	<div class="main-row">
 	  <iframe class="box" src="home.html" frameborder="1" scrolling="no" align="left"> </iframe>
 	  <iframe src="home2.html" class="box" frameborder="1"  scrolling="no" align="left"></iframe>
 	 </div>
-	<div style="width: 90vw; margin: auto;">
+	<div class="main-row">
 	  <iframe class="box" src="home3.html" frameborder="1"  scrolling="no" align="left"> </iframe>
 	  <iframe src="home4.html" class="box" frameborder="1"  scrolling="no" align="left"></iframe>
 	 </div>
+   <div class="main-row">
+      <div class="row">
+
+            <div class="col-md-2"></div>
+        <div class="col-md-7 text-center">
+          <div>
+            <h3>What about the worst case?</h3>
+            <h5>If you had invested $150k in the S&P 500 (VOO) in the worst moment in our lives (October 2007) right before the crash. You would still have 1 million dollars today.</h5>
+          </div>
+            </div>
+      </div>
+      The chart only shows from 2010, but, the data begins in oct 2007:
+      <a href="https://valueinvesting.io/backtest-portfolio/XsgDlZ" target="_blank">Source</a>
+      <a href="https://valueinvesting.io/backtest-portfolio/XsgDlZ">
+        <img src="./voo-crash.png" style="width: 90vw; margin: auto; display: block;"/>
+      </a>
+    </div>
 </body>
 </html>
